@@ -8,8 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #111;
-    color: #fff;
+    color: linear-gradient(to right, red 0%, #fbc99d 100%);
 }
 
 .container {
@@ -19,14 +18,14 @@ body {
 }
 
 .hero {
-    background-color: #ffce00; /* Yellow */
+    background: url(./assests/pexels-chan-walrus-958545.jpg);/* Yellow */
+    background-size: cover;
     padding: 100px 0;
     text-align: center;
 }
 
 .hero-title {
     font-size: 48px;
-    color: #111;
     margin-bottom: 20px;
 }
 
@@ -52,6 +51,7 @@ body {
 
 /* About */
 .about {
+
     padding: 100px 0;
     text-align: center;
 }
