@@ -1,3 +1,7 @@
+:root{
+  --red: red;
+  --orange: #fbc99d;
+}
 * {
     margin: 0;
     padding: 0;
@@ -12,21 +16,25 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    width:100%;
+    padding: 200px 20px;
+    background-color:rgba(0,0,0, 0.2);
 }
 
 .hero {
     background: url(./assests/pexels-chan-walrus-958545.jpg);/* Yellow */
     background-size: cover;
-    padding: 100px 0;
     text-align: center;
 }
 
 .hero-title {
     font-size: 48px;
     margin-bottom: 20px;
+    background: linear-gradient(to right, var(--red) 0%, var(--orange) 100%);
+    background-clip: text;
+    -webkit-background-cip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
 .hero-subtitle {
