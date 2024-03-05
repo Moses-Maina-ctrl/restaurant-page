@@ -1,1 +1,2 @@
-console.log("It works, YAY!!!")
+const content = document.getElementById('#content')
+

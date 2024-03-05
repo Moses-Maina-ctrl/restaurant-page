@@ -9,37 +9,54 @@
 }
 
 /* Global styles */
+header{
+  display:flex;
+  justify-content:center;
+  margin:0;
+  background-color: #eaeaea
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: linear-gradient(to right, red 0%, #fbc99d 100%);
 }
-
+.nav-button{
+  background-color:#eaeaea;
+  border:none;
+  margin:0;
+  padding: 20px;
+  
+}
+.nav-button:hover{
+  background-color: #333;
+  color:beige;
+}
+nav{
+  margin:0;
+  padding:0;
+}
 .container {
     width:100%;
-    padding: 200px 20px;
-    background-color:rgba(0,0,0, 0.2);
+    padding: 100px 20px;
 }
 
 .hero {
-    background: url(./assests/pexels-chan-walrus-958545.jpg);/* Yellow */
+    background: url(./assests/pexels-william-choquette-2641886.jpg);/* Yellow */
     background-size: cover;
     text-align: center;
 }
-
+.hero::before {
+  content:"";
+  background-color: rgba(0,0,0,0.25);
+}
 .hero-title {
     font-size: 48px;
     margin-bottom: 20px;
-    background: linear-gradient(to right, var(--red) 0%, var(--orange) 100%);
-    background-clip: text;
-    -webkit-background-cip: text;
-    -webkit-text-fill-color: transparent;
-    
+   color: beige; 
 }
 
 .hero-subtitle {
     font-size: 24px;
-    color: #111;
+    color: beige;
     margin-bottom: 40px;
 }
 
@@ -59,14 +76,13 @@ body {
 
 /* About */
 .about {
-
-    padding: 100px 0;
-    text-align: center;
+  background-color:white;
+  text-align: center;
 }
 
 .section-title {
     font-size: 36px;
-    color: #fff;
+    color: black;
     margin-bottom: 40px;
 }
 
@@ -78,7 +94,6 @@ body {
 
 /* Menu */
 .menu {
-    padding: 100px 0;
     text-align: center;
 }
 
