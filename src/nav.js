@@ -1,15 +1,18 @@
-import { addClassID } from "./index.js";
+import { content, addClassID } from "./index.js";
 
 
 function renderNav() {
   const nav = document.createElement("nav");
-  navItems = ['home', 'menu', 'contact']
+  const navItems = ['home', 'menu', 'contact']
 
   navItems.forEach(item => {
-    navBtn = document.createElement("button")
+    const header = document.createElement("header")
+    const navBtn = document.createElement("button")
     navBtn.innerHTML = item;
     nav.appendChild(navBtn)
     addClassID(navBtn, 'nav-button', null)
+    header.appendChild(nav)
+    content.appendChild(header)
   });
 }
 
