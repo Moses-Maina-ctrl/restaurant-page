@@ -2,7 +2,7 @@ import { content, addClassID } from "./index";
 
 export function renderAbout() {
   const aboutSection = document.createElement("section")
-  const containerDiv = document.createeElement("div")
+  const containerDiv = document.createElement("div")
   const title = document.createElement("h2")
   const desc_1 = document.createElement("p")
   const desc_2 = document.createElement("p")

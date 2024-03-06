@@ -1,6 +1,7 @@
 import { renderNav } from "./nav"
 import { renderHero } from "./hero"
 import { renderAbout } from "./about"
+import { renderMenu } from "./menu"
 
 export const content = document.getElementById('content')
 
@@ -18,6 +19,7 @@ function home() {
   renderNav()
   renderHero()
   renderAbout()
+  renderMenu()
 }
 
 home()

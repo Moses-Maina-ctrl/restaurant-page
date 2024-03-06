@@ -88,7 +88,7 @@ nav{
 
 .about-description {
     font-size: 18px;
-    color: #ccc;
+    color: black;
     margin-bottom: 20px;
 }
 
@@ -119,10 +119,12 @@ nav{
     color: #fff;
     margin-bottom: 10px;
 }
-
+img{
+  height:300px;
+}
 .item-description {
     font-size: 18px;
-    color: #ccc;
+    color: black;
 }
 
 /* Contact */
