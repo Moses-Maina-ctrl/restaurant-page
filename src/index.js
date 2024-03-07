@@ -2,6 +2,8 @@ import { renderNav } from "./nav"
 import { renderHero } from "./hero"
 import { renderAbout } from "./about"
 import { renderMenu } from "./menu"
+import { renderFooter } from "./footer"
+import { renderContact } from "./contact"
 
 export const content = document.getElementById('content')
 
@@ -20,6 +22,8 @@ function home() {
   renderHero()
   renderAbout()
   renderMenu()
+  renderFooter()
+  renderContact()
 }
 
 home()
